@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    text-align: center;
+    border: 3px solid #cdcdcd;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #555;
+    font-weight: normal;
+}
+
+header nav ul li a.active {
+    font-weight: 700;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+main.home {
+    background-image: url('../img/jane.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+main.about{
+    text-align: center;
+    /*espaçamento interno */
+    padding: 50px 15px;
+}
+
+/*Para utilizar uma configuração para a mesma classe, basta adicionar a ','*/
+main.about h2,
+main.music h2,
+main.contact h2{
+    font-size: 30px;
+}
+
+main.about cite{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin: 20px 0;
+}
+
+main.about img.foto-jane{
+    width: 500px;
+}
+
+main.music,
+main.contact{
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+main.music p{
+    line-height: 30px;
+}
+
+main.contact input,
+main.contact textarea{
+    width: 300px;
+    display: block;
+}
+
+main.contact label{
+    padding: 15px 0;
+}
+
+main.contact button{
+    background-color: gray;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+}
+
+
